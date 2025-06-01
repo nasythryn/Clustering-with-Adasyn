@@ -54,10 +54,10 @@ Kaggle https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-
 Setelah penerapan ADASYN, distribusi kelas menjadi lebih seimbang sehingga hasil clustering lebih representatif. Visualisasi menunjukkan pembentukan cluster yang lebih terpisah dibandingkan dengan sebelum dilakukan oversampling.
 
 Hasil Clustering Tanpa Adasyn
-![Hasil Clustering Tanpa Adasyn](dokumentasi_clustering/no_adasyn.png)
+![Hasil Clustering Tanpa Adasyn](dokumentasi%20clustering/no%20adasyn.png)
 
 Hasil Clustering Dengan Adasyn
-![Hasil Clustering Dengan Adasyn](dokumentasi_clustering/adasyn.png)
+![Hasil Clustering Dengan Adasyn](dokumentasi%20clustering/adasyn.png)
 
 Evaluasi Model Clustering:
 Tanpa Penyeimbangan Data menggunakan ADASYN
