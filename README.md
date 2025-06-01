@@ -53,24 +53,30 @@ Kaggle https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-
 
 Setelah penerapan ADASYN, distribusi kelas menjadi lebih seimbang sehingga hasil clustering lebih representatif. Visualisasi menunjukkan pembentukan cluster yang lebih terpisah dibandingkan dengan sebelum dilakukan oversampling.
 
-Hasil Clustering Tanpa Adasyn
+**Hasil Clustering Tanpa Adasyn**
 ![Hasil Clustering Tanpa Adasyn](dokumentasi%20clustering/no%20adasyn.png)
 
-Hasil Clustering Dengan Adasyn
+**Hasil Clustering Dengan Adasyn**
 ![Hasil Clustering Dengan Adasyn](dokumentasi%20clustering/adasyn.png)
 
-Evaluasi Model Clustering:
-Tanpa Penyeimbangan Data menggunakan ADASYN
-[KMeans] Silhouette Score         : 0.125
-[KMeans] Calinski-Harabasz Index  : 8228.312
-[GMM]    Silhouette Score         : 0.014
-[GMM]    Calinski-Harabasz Index  : 3190.464
+Evaluasi Model Clustering
 
-Dengan Penyeimbangan Data menggunakan ADASYN
-[KMeans] Silhouette Score         : 0.146
-[KMeans] Calinski-Harabasz Index  : 14022.752
-[GMM]    Silhouette Score         : 0.039
-[GMM]    Calinski-Harabasz Index  : 8912.908
+**Tanpa Penyeimbangan Data (Tanpa ADASYN)**
+- **KMeans**
+  - Silhouette Score: 0.125  
+  - Calinski-Harabasz Index: 8228.312
+- **GMM**
+  - Silhouette Score: 0.014  
+  - Calinski-Harabasz Index: 3190.464
+
+**Dengan Penyeimbangan Data (Menggunakan ADASYN)**
+- **KMeans**
+  - Silhouette Score: 0.146  
+  - Calinski-Harabasz Index: 14022.752
+- **GMM**
+  - Silhouette Score: 0.039  
+  - Calinski-Harabasz Index: 8912.908
+
 
 Model KMeans terlihat lebih terpisah setelah penyeimbangan data walau tidak begitu berbeda jauh dengan sebelumnya, begitu pula dengan GMM namun masih overlap atau saling tumpang tindih yang dianggap karena sifatnya yang setiap titik memiliki probabilitas di setiap cluster.
 
